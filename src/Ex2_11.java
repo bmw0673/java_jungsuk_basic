@@ -1,6 +1,12 @@
 class Ex2_11 {
 	public static void main(String[] args) {
+		//정수형의 오버플로우 예제
+		//최소값에서 -1 = 최댓값
+		//최댓값에서 +1 = 최솟값
+		
+		//부호있는정수
 		short sMin = -32768,  sMax = 32767;
+		//부호없는정수
 		char  cMin = 0,       cMax = 65535;
 
 		System.out.println("sMin  = " + sMin);

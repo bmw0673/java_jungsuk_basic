@@ -1,7 +1,16 @@
 class Ex2_1 { 
 	public static void main(String args[]) { 
-		System.out.println("Hello, world");// È­¸é¿¡ Hello, world°¡ Ãâ·ÂÇÏ°í ÁÙ¹Ù²Ş ÇÑ´Ù.
-		System.out.print("Hello");         // È­¸é¿¡ Hello¸¦ Ãâ·ÂÇÏ°í ÁÙ¹Ù²Ş ¾ÈÇÑ´Ù.
-		System.out.println("World");       // È­¸é¿¡ World¸¦ Ãâ·ÂÇÏ°í ÁÙ¹Ù²Ş ÇÑ´Ù.
+		
+		System.out.print("Hello, world");// print() - ì¶œë ¥ í›„ì— ì¤„ë°”ê¿ˆì„ ì•ˆí•¨.
+		System.out.println("Hello, world");// println() - ì¶œë ¥ í›„ì— ì¤„ë°”ê¿ˆì„ í•©ë‹ˆë‹¤.
+		System.out.printf("%d", 0x16);// printf() - ì§€ì‹œìë¥¼ í†µí•´ ì¶œë ¥í˜•ì‹ ì§€ì • ê°€ëŠ¥.
+		
+		int i = 100; //10ì§„ìˆ˜
+		int oct = 0100; //8ì§„ìˆ˜
+		int hex = 0x100; //16ì§„ìˆ˜
+		
+		float f = 3.14f; //fìƒëµ ë¶ˆê°€
+		double d = 3.14d; //ìƒëµ ê°€ëŠ¥
+		
 	} 
 }
