@@ -11,4 +11,4 @@
 # 2-14 화면으로부터 입력받기
 # 2-15,16 정수형의 오버플로
 # 2-17 타입간의 변환방법
-### [바로가기](https://github.com/bmw0673/ch02/blob/master/doc/2-17.md)
+### [바로가기](https://github.com/bmw0673/java_jungsuk_basic/blob/main/ch02/doc/2-17.md)
